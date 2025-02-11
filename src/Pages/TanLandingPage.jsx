@@ -3,6 +3,7 @@ import Home from "../components/Home";
 import BPoSAndinflationModel from "../components/BPoSAndinflationModel";
 import TanImage from "../components/TanImage";
 import UpcomingReleases from "../components/UpcomingReleases";
+import ListImageAndContainent from "../components/ListImageAndContainent";
 
 const TanLandingPage = () => {
   return (
@@ -12,6 +13,7 @@ const TanLandingPage = () => {
         <BPoSAndinflationModel />
         <TanImage />
         <UpcomingReleases />
+        <ListImageAndContainent />
       </div>
     </div>
   );
